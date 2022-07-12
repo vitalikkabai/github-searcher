@@ -1,0 +1,55 @@
+.userRepositories {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  .backButton {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 100px;
+    user-select: none;
+    .arrowBack {
+    width: 20px;
+    height: 20px;
+  }
+  }
+  
+  .userDetails {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    .avatar {
+      width: 250px;
+      height: 250px;
+    }
+    .userInfo {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .bio {
+    font-weight: 12px;
+  }
+  .repositories {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .repo {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid black;
+      padding: 0 20px;
+      .repoDetails {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
